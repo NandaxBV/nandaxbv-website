@@ -11,10 +11,10 @@
 }
 
 #particles {
-    position: fixed !important;
-    width: 100vw;
     height: 100vh;
     opacity: 0.5;
+    position: fixed !important;
+    width: 100vw;
 }
 
 .container {
@@ -31,9 +31,9 @@
 }
 
 img {
-    width: 30%;
     max-width: 300px;
     min-width: 100px;
+    width: 30%;
 }
 
 h1, h2 {
