@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;700&display=swap");
+
+:root {
+    --primary-color: #0D9AD5;
+    --secondary-color: #074973;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#particles {
+    position: fixed !important;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.5;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: calc(100vh - 40px);
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    width: calc(100vw - 40px);
+    z-index: 10;
+}
+
+img {
+    width: 30%;
+    max-width: 300px;
+    min-width: 100px;
+}
+
+h1, h2 {
+    font-family: "Archivo", sans-serif;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h1 {
+    color: var(--secondary-color);
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+}
